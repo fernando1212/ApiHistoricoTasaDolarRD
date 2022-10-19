@@ -15,3 +15,8 @@
 	
 	npm i mysql express nodemon dotenv --save-dev
 	
+-Ejecutamos con el siguiente comando:
+
+	nodemon index.js
+
+	
