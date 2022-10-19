@@ -1,4 +1,4 @@
-# Api de historico del precio del dolar en República Dominicana con NodeJS / express / Mysql
+# Api de historico del precio del dolar en República Dominicana con NodeJS / Express / Mysql
 
 -Creamos la base de datos disponible en el diretorio basedatos/datosrd.sql
 
