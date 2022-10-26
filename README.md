@@ -8,7 +8,7 @@
 	npm init -y
 	
 	
--Modificamos el un artivo .env con la configuración de nuestra BD
+-Modificamos el un archivo .env con la configuración de nuestra BD
 
 
 -Instalamos en nuestro proyecto los siguientes paquetes:
