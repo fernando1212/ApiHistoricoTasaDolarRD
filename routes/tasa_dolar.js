@@ -9,8 +9,8 @@ dotenv.config();
 //conexión con la base de datos
 const {connection} = require("../config.db");
 
-const gettasa_dolar = (request, response) => {
-    connection.query("SELECT ID FROM tasa_dolar limit 10", 
+const getTasaDolar = (request, response) => {
+    connection.query("SELECT ID FROM tasa_dolar", 
     (error, results) => {
         if(error)
             throw error;
@@ -20,7 +20,7 @@ const gettasa_dolar = (request, response) => {
 
 //ruta
 app.route("/tasadolar")
-.get(gettasa_dolar);
+.get(getTasaDolar);
 
 
 module.exports = app;
